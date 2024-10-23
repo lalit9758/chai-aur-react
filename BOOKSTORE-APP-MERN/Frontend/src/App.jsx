@@ -1,10 +1,17 @@
-// import React from 'react'
-// import { Routes, Route } from 'react-router-dom'
+import { useState } from 'react'
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './Pages/Home/Home';
+import './App.css'
 
-// const App = () => {
-//   return(
+function App() {
+ 
 
-//   )
-// }
+  return (
+    <>
 
-// export default App
+    </>
+  )
+}
+
+export default App
