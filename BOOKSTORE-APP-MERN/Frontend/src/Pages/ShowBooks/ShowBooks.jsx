@@ -44,11 +44,11 @@ function ShowBooks() {
                 </div>
                 <div className="my-4">
                     <span className="text-xl mr-4 text-gray-500">Created At</span>
-                    <span>{new Date(book.createdAt).toString}</span>
+                    <span>{book.createdAt}</span>
                 </div>
                 <div className="my-4">
                     <span className="text-xl mr-4 text-gray-500">Updated At</span>
-                    <span>{new Date(book.updatedAt).toString}</span>
+                    <span>{book.updatedAt}</span>
                 </div>
             </div>
         )}
